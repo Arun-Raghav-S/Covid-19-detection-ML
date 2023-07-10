@@ -37,7 +37,7 @@ The dataset consists of X-Ray images as well as their masks which are around the
 
 It is observed that the number of X-Ray images of COVID-19 affected lungs and normal lungs are highly unbalanced (number of normal lung X-Ray images are around 3 times the affected lung images). To solve this, undersampling is performed which involves random removal of data from the majority class.
 
-3. Train Test Split![](img/Aspose.Words.9056bac2-50ab-4608-91c3-f98243d7b6cd.001.jpeg)
+3. Train Test Split![](img\Aspose.Words.9056bac2-50ab-4608-91c3-f98243d7b6cd.001.jpeg)
 
 The pre-processed data is split into training and validation dataset in the ratio of 80:20 using the *tf.keras.utils.image\_dataset\_from\_directory()* function in color\_mode as grayscale and rgb.
 
